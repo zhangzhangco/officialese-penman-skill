@@ -40,3 +40,28 @@ formal-preface-writing-skill/
 ├── examples/
 └── scripts/
 ```
+
+## AI Agent 导入说明 (AI Agent Integration)
+
+本 Skill 遵循开源的 `SKILL.md` 规范，可以被直接导入到兼容该规范的 AI Agent 平台（如 Antigravity IDE、Cursor、Claude Code 等）。
+
+### 1. 本地安装到 Antigravity IDE / CLI
+将本项目克隆到您的自定义插件/Skill 目录下：
+```bash
+cd ~/.gemini/config/plugins/
+git clone https://github.com/zhangzhangco/formal-preface-writing-skill.git
+```
+
+### 2. 在其他 AI 助手（如 Claude / ChatGPT）中使用
+直接将 [SKILL.md](SKILL.md) 的内容拷贝作为 Prompt（提示词）提供给 AI，并执行类似指令：
+> “使用 formal-preface-writing Skill，根据以下材料写一篇 1500 字的研究报告前言。”
+
+---
+
+## 自动自检工具 (Automated Verification)
+
+项目内置了占位符自检脚本，在文稿生成后，可确保不遗留任何类似 `[项目名称]` 或 `〔待补全〕` 的方括号占位符：
+```bash
+python3 scripts/check_placeholders.py <您的文稿文件.md>
+```
+
