@@ -31,7 +31,7 @@
 ## 文件结构
 
 ```text
-officialese-penman/
+officialese-penman-skill/
 ├── SKILL.md
 ├── README.md
 ├── manifest.txt
@@ -49,7 +49,7 @@ officialese-penman/
 将本项目克隆到您的自定义插件/Skill 目录下：
 ```bash
 cd ~/.gemini/config/plugins/
-git clone https://github.com/zhangzhangco/officialese-penman.git
+git clone https://github.com/zhangzhangco/officialese-penman-skill.git
 ```
 
 ### 2. 在其他 AI 助手（如 Claude / ChatGPT）中使用
