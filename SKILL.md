@@ -1,7 +1,7 @@
 ---
 name: officialese-penman
 version: 1.0.0
-description: 为中文专著序言、公文报告、白皮书等正式文稿，生成“官话笔杆子”级别的开篇文本。
+description: "为中文专著序言、公文报告、白皮书等正式文稿，生成“官话笔杆子”级别的开篇文本。"
 language: zh-CN
 ---
 
