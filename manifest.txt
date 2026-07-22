@@ -1,0 +1,12 @@
+SKILL.md
+README.md
+manifest.txt
+templates/universal_full_template.md
+templates/standard_template.md
+templates/compact_template.md
+references/intake_fields.md
+references/scene_adaptations.md
+references/connectors.md
+references/quality_checklist.md
+examples/sample_inputs_outputs.md
+scripts/check_placeholders.py
