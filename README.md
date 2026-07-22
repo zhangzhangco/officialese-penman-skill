@@ -1,4 +1,4 @@
-# 正式文稿开篇写作 Skill
+# 官话笔杆子助手 (Officialese Penman) Skill
 
 这是一个面向中文正式写作的可复用 Skill，适合生成和修改：
 
@@ -18,7 +18,7 @@
 
 也可以直接把 `SKILL.md` 和所需模板提供给模型，并给出类似指令：
 
-> 使用 formal-preface-writing Skill，根据以下材料写一篇 1500 字的研究报告前言。
+> 使用 officialese-penman Skill，根据以下材料写一篇 1500 字的研究报告前言。
 
 ## 推荐读取顺序
 
@@ -31,7 +31,7 @@
 ## 文件结构
 
 ```text
-formal-preface-writing-skill/
+officialese-penman/
 ├── SKILL.md
 ├── README.md
 ├── manifest.txt
@@ -49,12 +49,12 @@ formal-preface-writing-skill/
 将本项目克隆到您的自定义插件/Skill 目录下：
 ```bash
 cd ~/.gemini/config/plugins/
-git clone https://github.com/zhangzhangco/formal-preface-writing-skill.git
+git clone https://github.com/zhangzhangco/officialese-penman.git
 ```
 
 ### 2. 在其他 AI 助手（如 Claude / ChatGPT）中使用
 直接将 [SKILL.md](SKILL.md) 的内容拷贝作为 Prompt（提示词）提供给 AI，并执行类似指令：
-> “使用 formal-preface-writing Skill，根据以下材料写一篇 1500 字的研究报告前言。”
+> “使用 officialese-penman Skill，根据以下材料写一篇 1500 字的研究报告前言。”
 
 ---
 

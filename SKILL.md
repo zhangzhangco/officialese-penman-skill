@@ -1,11 +1,11 @@
 ---
-name: formal-preface-writing
+name: officialese-penman
 version: 1.0.0
-description: 为中文专著序言、研究报告前言、项目申报背景、项目总结、行业白皮书、技术方案、标准解读、教材导言、成果发布词等正式文稿，生成结构完整、逻辑清楚、连词稳定且可按场景改写的开篇文本。
+description: 为中文专著序言、公文报告、白皮书等正式文稿，生成“官话笔杆子”级别的开篇文本。
 language: zh-CN
 ---
 
-# 正式文稿开篇写作 Skill
+# 官话笔杆子助手 (Officialese Penman) Skill
 
 ## 适用任务
 
